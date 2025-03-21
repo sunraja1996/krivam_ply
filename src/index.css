@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --font-poppins: Poppins, sans-serif;
+  --font-montserrat: Montserrat, serif;
+  --font-outfit: Outfit, serif;
+  --font-bebas:Bebas Neue, sans-serif;
+  line-height: 1.5;
+  /* font-weight: 200; */
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section{
+  font-family: var(--font-montserrat);
+}
+
+.title{
+  font-family: var(--font-montserrat);
+}
+
+.content{
+  font-family: var(--font-montserrat);
+  font-size: x-small;
+}
