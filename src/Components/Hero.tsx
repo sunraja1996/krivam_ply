@@ -1,12 +1,22 @@
 import { useState, useEffect } from "react";
 import logo from "../assets/logo.png";
+import background_image1 from '../assets/images/kitchen-2364665_1280.webp'
+import background_image2 from '../assets/images/kitchen-8368660_1280.webp'
+import background_image3 from '../assets/images/Margaret-Howell-Isokon-Exhibition-01-1584x1056.jpg'
+import background_image4 from '../assets/images/pexels-houzlook-3926542.jpg'
+import background_image5 from '../assets/images/pexels-karolina-katereu-2149378526-30857234.jpg'
 
 const Hero = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
-    "https://images.unsplash.com/photo-1629976828074-c248d94c82ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGx5d29vZHxlbnwwfDB8MHx8fDA%3D",
-    "https://images.unsplash.com/photo-1566373924413-3efde9d6eb67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBseXdvb2R8ZW58MHwwfDB8fHww",
-    "https://images.unsplash.com/photo-1554230253-017daba2b631?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBseXdvb2R8ZW58MHwwfDB8fHww",
+    background_image1,
+    background_image2,
+    background_image3,
+    background_image4,
+    background_image5,
+    // "https://images.unsplash.com/photo-1629976828074-c248d94c82ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGx5d29vZHxlbnwwfDB8MHx8fDA%3D",
+    // "https://images.unsplash.com/photo-1566373924413-3efde9d6eb67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBseXdvb2R8ZW58MHwwfDB8fHww",
+    // "https://images.unsplash.com/photo-1554230253-017daba2b631?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBseXdvb2R8ZW58MHwwfDB8fHww",
   ];
 
   useEffect(() => {

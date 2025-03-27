@@ -49,7 +49,7 @@ const Header = () => {
       animate={{ y: isVisible ? 0 : -100, opacity: isVisible ? 1 : 0 }}
       transition={{ duration: 0.3, ease: "easeInOut" }}
       variants={containerVariants}
-      className="bg-red-500 sticky top-0 z-50"
+      className="bg-green-900 sticky top-0 z-50"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row justify-between items-center py-3 sm:py-4">
@@ -58,7 +58,7 @@ const Header = () => {
             className="flex items-center justify-center sm:justify-start mb-2 sm:mb-0"
           >
             <span className="text-amber-50 font-outfit text-sm sm:text-base font-semibold">
-              Krivamply | Building Better. Together
+              Krivamply | Building Better, Together
             </span>
           </motion.div>
 
