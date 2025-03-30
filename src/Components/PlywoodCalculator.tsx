@@ -1,4 +1,10 @@
 import React, { useState } from 'react';
+import kitchen from '../assets/images/kitchen.jpg';
+import tvunit from '../assets/images/TVunit.jpg';
+import wardrobes from '../assets/images/wardorbe.jpg';
+import washbasin from '../assets/images/washbasin.jpg';
+import pooja from '../assets/images/pooja.jpg';
+import dressing from '../assets/images/dressing.jpg';
 
 interface PlywoodData {
   dimension: string;
@@ -16,25 +22,65 @@ interface FurnitureData {
 }
 
 const furnitureData: { [key: string]: FurnitureData } = {
-  'TV CABINET': {
+  'Kitchen': {
     variants: {
-      '243.84cm x 91.44cm': [
-        { dimension: '243.84cm x 91.44cm', quantity: 2, thickness: '19mm' },
-        { dimension: '243.84cm x 91.44cm', quantity: 3, thickness: '12mm' },
-        { dimension: '243.84cm x 91.44cm', quantity: 2, thickness: '6mm' },
+      '13ft x 12ft': [
+        { dimension: '13cm x 91.44cm', quantity: 15, thickness: '16mm' },
+        { dimension: '243.84cm x 91.44cm HDHMR', quantity: 4, thickness: '16mm' },
+        { dimension: '243.84cm x 91.44cm', quantity: 4, thickness: '6mm' },
       ],
     },
-    image: 'https://placehold.co/600x400',
+    image: kitchen,
   },
   Wardrobes: {
     variants: {
-      '7Ft X 3Ft': [
-        { dimension: '7Ft X 3Ft', quantity: 1, thickness: '19mm' },
-        { dimension: '7Ft X 3Ft', quantity: 3, thickness: '12mm' },
-        { dimension: '7Ft X 3Ft', quantity: 2, thickness: '6mm' },
+      '6ft X 9ft': [
+        { dimension: '7Ft X 3Ft', quantity: 5, thickness: '16mm'},
+        { dimension: '7Ft X 3Ft HDHMR', quantity: 2, thickness: '16mm'},
+        { dimension: '7Ft X 3Ft', quantity: 2, thickness: '6mm'},
       ],
     },
-    image: 'https://placehold.co/600x400',
+    image: wardrobes,
+  },
+  Washbasin: {
+    variants: {
+      '4ft X 8ft': [
+        { dimension: '7Ft X 3Ft', quantity: 2, thickness: '16mm'},
+        { dimension: '7Ft X 3Ft HDHMR', quantity: 1, thickness: '16mm'},
+        { dimension: '7Ft X 3Ft', quantity: 1, thickness: '6mm'},
+      ],
+    },
+    image: washbasin,
+  },
+  TVunit: {
+    variants: {
+      '12ft X 10ft': [
+        { dimension: '7Ft X 3Ft', quantity: 6, thickness: '16mm'},
+        { dimension: '7Ft X 3Ft HDHMR', quantity: 1, thickness: '16mm'},
+        { dimension: '7Ft X 3Ft', quantity: 1, thickness: '6mm'},
+      ],
+    },
+    image: tvunit,
+  },
+  Pooja: {
+    variants: {
+      '5ft X 7ft': [
+        { dimension: '7Ft X 3Ft', quantity: 2, thickness: '16mm'},
+        { dimension: '7Ft X 3Ft HDHMR', quantity: 1, thickness: '16mm'},
+        { dimension: '7Ft X 3Ft', quantity: 1, thickness: '6mm'},
+      ],
+    },
+    image: pooja,
+  },
+  Dressingunit: {
+    variants: {
+      '6ft X 8ft': [
+        { dimension: '7Ft X 3Ft', quantity: 3, thickness: '16mm'},
+        { dimension: '7Ft X 3Ft HDHMR', quantity: 1, thickness: '16mm'},
+        { dimension: '7Ft X 3Ft', quantity: 1, thickness: '6mm'},
+      ],
+    },
+    image: dressing,
   },
 };
 

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { RiWhatsappFill } from "react-icons/ri";
 
 const WhatsAppButton = () => {
-  const phoneNumber = "+911234567809";
+  const phoneNumber = "+919176606669";
   const message = "Hello! I'm interested in Krivam Ply products.";
 
   return (
