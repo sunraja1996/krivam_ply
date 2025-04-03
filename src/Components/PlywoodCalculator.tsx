@@ -25,9 +25,9 @@ const furnitureData: { [key: string]: FurnitureData } = {
   'Kitchen': {
     variants: {
       '13ft x 12ft': [
-        { dimension: '13cm x 91.44cm', quantity: 15, thickness: '16mm' },
-        { dimension: '243.84cm x 91.44cm HDHMR', quantity: 4, thickness: '16mm' },
-        { dimension: '243.84cm x 91.44cm', quantity: 4, thickness: '6mm' },
+        { dimension: '8Ft x 4Ft', quantity: 15, thickness: '16mm' },
+        { dimension: '8Ft x 4Ft', quantity: 4, thickness: '16mm' },
+        { dimension: '8Ft x 4Ft', quantity: 4, thickness: '6mm' },
       ],
     },
     image: kitchen,
@@ -35,9 +35,9 @@ const furnitureData: { [key: string]: FurnitureData } = {
   Wardrobes: {
     variants: {
       '6ft X 9ft': [
-        { dimension: '7Ft X 3Ft', quantity: 5, thickness: '16mm'},
-        { dimension: '7Ft X 3Ft HDHMR', quantity: 2, thickness: '16mm'},
-        { dimension: '7Ft X 3Ft', quantity: 2, thickness: '6mm'},
+        { dimension: '8Ft x 4Ft', quantity: 5, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 2, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 2, thickness: '6mm'},
       ],
     },
     image: wardrobes,
@@ -45,9 +45,9 @@ const furnitureData: { [key: string]: FurnitureData } = {
   Washbasin: {
     variants: {
       '4ft X 8ft': [
-        { dimension: '7Ft X 3Ft', quantity: 2, thickness: '16mm'},
-        { dimension: '7Ft X 3Ft HDHMR', quantity: 1, thickness: '16mm'},
-        { dimension: '7Ft X 3Ft', quantity: 1, thickness: '6mm'},
+        { dimension: '8Ft x 4Ft', quantity: 2, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 1, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 1, thickness: '6mm'},
       ],
     },
     image: washbasin,
@@ -55,9 +55,9 @@ const furnitureData: { [key: string]: FurnitureData } = {
   TVunit: {
     variants: {
       '12ft X 10ft': [
-        { dimension: '7Ft X 3Ft', quantity: 6, thickness: '16mm'},
-        { dimension: '7Ft X 3Ft HDHMR', quantity: 1, thickness: '16mm'},
-        { dimension: '7Ft X 3Ft', quantity: 1, thickness: '6mm'},
+        { dimension: '8Ft x 4Ft', quantity: 6, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 1, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 1, thickness: '6mm'},
       ],
     },
     image: tvunit,
@@ -65,9 +65,9 @@ const furnitureData: { [key: string]: FurnitureData } = {
   Pooja: {
     variants: {
       '5ft X 7ft': [
-        { dimension: '7Ft X 3Ft', quantity: 2, thickness: '16mm'},
-        { dimension: '7Ft X 3Ft HDHMR', quantity: 1, thickness: '16mm'},
-        { dimension: '7Ft X 3Ft', quantity: 1, thickness: '6mm'},
+        { dimension: '8Ft x 4Ft', quantity: 2, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 1, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 1, thickness: '6mm'},
       ],
     },
     image: pooja,
@@ -75,9 +75,9 @@ const furnitureData: { [key: string]: FurnitureData } = {
   Dressingunit: {
     variants: {
       '6ft X 8ft': [
-        { dimension: '7Ft X 3Ft', quantity: 3, thickness: '16mm'},
-        { dimension: '7Ft X 3Ft HDHMR', quantity: 1, thickness: '16mm'},
-        { dimension: '7Ft X 3Ft', quantity: 1, thickness: '6mm'},
+        { dimension: '8Ft x 4Ft', quantity: 3, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 1, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 1, thickness: '6mm'},
       ],
     },
     image: dressing,
@@ -153,17 +153,17 @@ const PlywoodCalculator: React.FC = () => {
           <table className="w-full border-collapse border border-gray-300 dark:border-gray-600">
             <thead>
               <tr className="bg-green-100 dark:bg-green-700">
-                <th className="p-2 border border-gray-300 dark:border-gray-500">Dimension</th>
+              <th className="p-2 border border-gray-300 dark:border-gray-500">Thickness</th>
                 <th className="p-2 border border-gray-300 dark:border-gray-500">Quantity</th>
-                <th className="p-2 border border-gray-300 dark:border-gray-500">Thickness</th>
+                <th className="p-2 border border-gray-300 dark:border-gray-500">Dimension</th>
               </tr>
             </thead>
             <tbody>
               {plywoodData.map((item, index) => (
                 <tr key={index} className="bg-white dark:bg-gray-600">
-                  <td className="p-2 border border-gray-300 dark:border-gray-500 text-center">{item.dimension}</td>
-                  <td className="p-2 border border-gray-300 dark:border-gray-500 text-center">{item.quantity}</td>
                   <td className="p-2 border border-gray-300 dark:border-gray-500 text-center">{item.thickness}</td>
+                  <td className="p-2 border border-gray-300 dark:border-gray-500 text-center">{item.quantity}</td>
+                  <td className="p-2 border border-gray-300 dark:border-gray-500 text-center">{item.dimension}</td>
                 </tr>
               ))}
             </tbody>
