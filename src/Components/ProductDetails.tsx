@@ -1,4 +1,15 @@
-import mrgold from "../assets/MR GOLD.jpg";
+import mrgold from "../assets/Ply/MR GOLD.jpg";
+import mrcommercial from "../assets/Ply/MR COMMERCIAL.jpg";
+import mrcommercialplus from "../assets/Ply/MR COMMERCIAL PLUS.jpg";
+import mrcalibrated from "../assets/Ply/MR CALIBRATED.jpg";
+import bwpelite from "../assets/Ply/BWP ELITE.jpg";
+import bwppremium from "../assets/Ply/BWP PREMIUM.jpg";
+import bwrcalibrated from "../assets/Ply/BWR CALIBRATED.jpg";
+import mdf from "../assets/Ply/MDF & PARTICLE BOARDS.jpg";
+import bsl from "../assets/Ply/BSL & OSL Plywood.jpg";
+import flushdoors from "../assets/Ply/BLOCK BOARDS & FLUSH DOORS.jpg";
+import laminates from "../assets/Ply/LAMINATES.jpg";
+import edgebanding from "../assets/Ply/EDGE BANDING.jpg";
 // import bmr from "../assets/BMR.jpg";
 
 export interface Product {
@@ -21,7 +32,7 @@ export const products: Product[] = [
     title: "MR COMMERCIAL",
     subtitle: "Carpenter's Delight",
     image: {
-      src: mrgold,
+      src: mrcommercial,
       alt: "MR Bronze Plywood",
     },
     description:
@@ -62,7 +73,7 @@ export const products: Product[] = [
     title: "MR COMMERCIAL PLUS",
     subtitle: "Carpenter's Delight",
     image: {
-      src: "mrcommercialplus",
+      src: mrcommercialplus,
       alt: "MR Commercial Plus Plywood"
     },
     description: "MR Commercial Plus is an economical and emerging variety in India. We offer the best price in the market while ensuring top-notch quality.",
@@ -82,7 +93,7 @@ export const products: Product[] = [
     title: "BWP ELITE",
     subtitle: "Carpenter's Delight",
     image: {
-      src: "bwpelite",
+      src: bwpelite,
       alt: "BWP Elite Plywood"
     },
     description: "BWP Elite plywood is crafted using advanced technology with carefully selected hardwood veneers. It is bonded with Phenol Formaldehyde resin, ensuring exceptional strength, rigidity, and resistance to termites and fungi.",
@@ -102,7 +113,7 @@ export const products: Product[] = [
     title: "BWP PREMIUM",
     subtitle: "Carpenter's Delight",
     image: {
-      src: "bwppremium",
+      src: bwppremium,
       alt: "BWP Premium Plywood"
     },
     description: "BWP Premium is a top-tier plywood designed for extreme weather conditions. Manufactured from high-quality hardwood veneers, it is reinforced with Phenol Formaldehyde resin to provide outstanding durability, strength, and waterproofing.",
@@ -122,7 +133,7 @@ export const products: Product[] = [
     title: "MR CALIBRATED",
     subtitle: "Carpenter's Delight",
     image: {
-      src: "mrcalibrated",
+      src: mrcalibrated,
       alt: "MR Calibrated Plywood"
     },
     description: "MR Calibrated plywood is a premium-quality product from Vikaraa, designed for interior applications. Made from 100% high-quality hardwood, it is ideal for home and office furniture. The UREA and Formaldehyde resin used in advanced manufacturing techniques ensures superior strength and durability.",
@@ -142,7 +153,7 @@ export const products: Product[] = [
     title: "BWR CALIBRATED",
     subtitle: "Carpenter's Delight",
     image: {
-      src: "bwrcalibrated",
+      src: bwrcalibrated,
       alt: "BWR Calibrated Plywood"
     },
     description: "BWR Calibrated plywood is specially designed to resist boiling water and is ideal for exterior applications. The high-quality resin used in the bonding process prevents cracking and warping, making it a reliable choice for demanding environments.",
@@ -162,7 +173,7 @@ export const products: Product[] = [
     title: "BSL & OSL PLYWOOD",
     subtitle: "Carpenter's Delight",
     image: {
-      src: "bsl-osl",
+      src: bsl,
       alt: "BSL & OSL Plywood"
     },
     description: "BSL & OSL Plywood is crafted through the pressing of MF impregnated with uniform density and porosity on a particle board surface. This process, done under controlled temperature and pressure, modifies the wood to enhance its durability and performance.",
@@ -182,7 +193,7 @@ export const products: Product[] = [
     title: "MDF & PARTICLE BOARDS",
     subtitle: "Carpenter's Delight",
     image: {
-      src: "mdf-particleboard",
+      src: mdf,
       alt: "MDF & Particle Boards"
     },
     description: "MDF & Particle Boards are crafted using advanced technology to ensure durability and reliability. MDF is highly resistant to abrasion, chemicals, moisture, and termites, while Particle Board is designed to offer a smooth, decorative finish at an affordable cost. Both are ideal for a variety of interior and exterior applications.",
@@ -211,7 +222,7 @@ export const products: Product[] = [
     title: "BLOCK BOARDS & FLUSH DOORS",
     subtitle: "Carpenter's Delight",
     image: {
-      src: "block-boards-flush-doors",
+      src: flushdoors,
       alt: "Block Boards & Flush Doors"
     },
     description: "Block Boards and Flush Doors are designed for both strength and aesthetic appeal. Block Boards are made from solid wood strips with a plywood core and thin veneer panels, while Flush Doors are created with plywood or MDF facings, filled with hardwood for enhanced durability and minimal joints.",
@@ -236,7 +247,7 @@ export const products: Product[] = [
     title: "LAMINATES",
     subtitle: "Carpenter's Delight",
     image: {
-      src: "laminates",
+      src: laminates,
       alt: "Laminates"
     },
     description: "Laminates are highly flexible and abrasion-resistant, offering enhanced surface durability. Our advanced technology ensures superior bonding and increased resistance to wear and tear, making them an ideal choice for a wide range of applications.",
@@ -262,7 +273,7 @@ export const products: Product[] = [
     title: "EDGE BANDING",
     subtitle: "Carpenter's Delight",
     image: {
-      src: "edge-banding",
+      src: edgebanding,
       alt: "Edge Banding"
     },
     description: "Edge banding is an ultra-thin laminate designed to protect plywood from humidity and enhance the overall appearance of edges. It bonds seamlessly with substrates, providing dimensional stability and a sleek, professional finish without visible seams.",
