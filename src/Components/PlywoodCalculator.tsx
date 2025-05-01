@@ -25,8 +25,7 @@ const furnitureData: { [key: string]: FurnitureData } = {
   'Kitchen': {
     variants: {
       '13ft x 12ft': [
-        { dimension: '8Ft x 4Ft', quantity: 15, thickness: '16mm' },
-        { dimension: '8Ft x 4Ft', quantity: 4, thickness: '16mm' },
+        { dimension: '8Ft x 4Ft', quantity: 19, thickness: '16mm' },
         { dimension: '8Ft x 4Ft', quantity: 4, thickness: '6mm' },
       ],
     },
@@ -35,8 +34,7 @@ const furnitureData: { [key: string]: FurnitureData } = {
   Wardrobes: {
     variants: {
       '6ft X 9ft': [
-        { dimension: '8Ft x 4Ft', quantity: 5, thickness: '16mm'},
-        { dimension: '8Ft x 4Ft', quantity: 2, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 7, thickness: '16mm'},
         { dimension: '8Ft x 4Ft', quantity: 2, thickness: '6mm'},
       ],
     },
@@ -45,8 +43,7 @@ const furnitureData: { [key: string]: FurnitureData } = {
   Washbasin: {
     variants: {
       '4ft X 8ft': [
-        { dimension: '8Ft x 4Ft', quantity: 2, thickness: '16mm'},
-        { dimension: '8Ft x 4Ft', quantity: 1, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 3, thickness: '16mm'},
         { dimension: '8Ft x 4Ft', quantity: 1, thickness: '6mm'},
       ],
     },
@@ -55,8 +52,7 @@ const furnitureData: { [key: string]: FurnitureData } = {
   TVunit: {
     variants: {
       '12ft X 10ft': [
-        { dimension: '8Ft x 4Ft', quantity: 6, thickness: '16mm'},
-        { dimension: '8Ft x 4Ft', quantity: 1, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 7, thickness: '16mm'},
         { dimension: '8Ft x 4Ft', quantity: 1, thickness: '6mm'},
       ],
     },
@@ -65,8 +61,7 @@ const furnitureData: { [key: string]: FurnitureData } = {
   Pooja: {
     variants: {
       '5ft X 7ft': [
-        { dimension: '8Ft x 4Ft', quantity: 2, thickness: '16mm'},
-        { dimension: '8Ft x 4Ft', quantity: 1, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 3, thickness: '16mm'},
         { dimension: '8Ft x 4Ft', quantity: 1, thickness: '6mm'},
       ],
     },
@@ -75,8 +70,7 @@ const furnitureData: { [key: string]: FurnitureData } = {
   Dressingunit: {
     variants: {
       '6ft X 8ft': [
-        { dimension: '8Ft x 4Ft', quantity: 3, thickness: '16mm'},
-        { dimension: '8Ft x 4Ft', quantity: 1, thickness: '16mm'},
+        { dimension: '8Ft x 4Ft', quantity: 4, thickness: '16mm'},
         { dimension: '8Ft x 4Ft', quantity: 1, thickness: '6mm'},
       ],
     },

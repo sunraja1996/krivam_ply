@@ -57,9 +57,9 @@ const Header = () => {
             variants={itemVariants}
             className="flex items-center justify-center sm:justify-start mb-2 sm:mb-0"
           >
-            <span className="text-amber-50 font-outfit text-sm sm:text-base font-semibold">
+            <a href="/"><span className="text-amber-50 font-outfit text-sm sm:text-base font-semibold cursor-pointer">
               Krivamply | Building Better, Together
-            </span>
+            </span></a>
           </motion.div>
 
           <motion.div

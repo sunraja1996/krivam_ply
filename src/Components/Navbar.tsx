@@ -25,7 +25,7 @@ const Navbar = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll); // Cleanup on unmount
+    return () => window.removeEventListener("scroll", handleScroll); 
   }, []);
 
   return (
