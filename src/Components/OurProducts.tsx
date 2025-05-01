@@ -31,7 +31,7 @@ const OurProducts = () => {
       <motion.button
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        onClick={() => navigate("/all-products")}
+        onClick={() => navigate("/allproducts")}
         className="bg-green-600 dark:bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-700 dark:hover:bg-green-400 transition duration-200"
       >
         View All Products
