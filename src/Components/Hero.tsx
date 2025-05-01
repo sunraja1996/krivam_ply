@@ -65,7 +65,7 @@ const Hero = () => {
         </p>
         <div className="mt-8 flex items-center gap-x-6">
           <a
-            href="/all-products"
+            href="/allproducts"
             className="rounded-md bg-green-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-green-700"
           >
             View Products
